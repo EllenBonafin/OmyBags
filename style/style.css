@@ -154,14 +154,19 @@ section .catalog {
   }
 }
 
-@media only screen and (min-width:586px) and (max-width:1200){
-  main .menu-bar{
-    display: none;
-    visibility: hidden;
-  }
+@media screen  and (min-width:586px){
+    main .menu{
+      display: none;
+      visibility: hidden;
+    }
 
-  main{
-    width: 100vw;
-}
+    main ul {
+      display: none;
+      visibility: hidden;
+    }
 
+    main .bar{
+      display: none;
+      visibility: hidden;
+    }
 }
