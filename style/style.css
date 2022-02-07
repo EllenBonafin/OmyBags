@@ -142,5 +142,26 @@ section .catalog {
   .card-item button:hover {
     background:#dcdcdc;
   }
-  
-  
+
+  @media only screen and (max-width: 586px) {
+    main .logo {
+      display: none;
+      visibility: hidden;
+    }
+
+    main{
+      width: 100vw;
+  }
+}
+
+@media only screen and (min-width:586px) and (max-width:1200){
+  main .menu-bar{
+    display: none;
+    visibility: hidden;
+  }
+
+  main{
+    width: 100vw;
+}
+
+}
