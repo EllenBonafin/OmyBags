@@ -13,7 +13,7 @@
 main h1{
    color: #221516;
    margin: 0 auto;
-   padding-top: 15px;
+   padding-top: 8px;
  }
 .logo{
   justify-content: center;
@@ -23,7 +23,7 @@ main h1{
  nav{
    display: flex;
    justify-content:center;
-   padding: 15px;
+   padding: 5px;
  } 
  
  nav a {
