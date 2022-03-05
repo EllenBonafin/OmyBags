@@ -158,16 +158,20 @@ section .catalog {
       text-align: center;
      font-family: Arial, Helvetica, sans-serif;
      width: 100%;
-     height: 200px;
+     height: 100px;
      padding-top: 20px;
     }
+
    .footer p{
      text-align: center;
      font-family: Arial, Helvetica, sans-serif;
      width: 100%;
+     height: 200px;
      padding-top: 20px;
-     border: 10px solid;
-     border-color: #dcdcdc;
+     border: 5px solid rgba(0, 0, 0, .4);;
+     border-color: black;
+     background-color: black;
+     
    }
 
 /*Responsividade*/
