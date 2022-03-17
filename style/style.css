@@ -47,6 +47,19 @@ main h1{
   object-fit: cover;
 }
 
+main .logo-moblie{
+  width: 100px;
+  height:400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mobile h1{
+  color: #f4918d;
+}
+
+
 /*produtos*/
 .content{
     max-width: 1000px;
@@ -161,7 +174,8 @@ section .catalog {
      height: 100px;
      padding-top: 20px;
      order: 1;
-     background-image: url(../img/YOUR\ PERFECT\ BAG.png);
+     background: rgb(205,205,205);
+     background: radial-gradient(circle, rgba(205,205,205,1) 0%, rgba(0,0,0,1) 100%);
     }
    
   .footer{
@@ -188,6 +202,14 @@ section .catalog {
     main{
       width: 100vw;
   }
+  main .banner{
+    height: 300px;
+    padding-top: 200px;
+  }
+
+  main .catalog{
+    padding-top: 1px;
+  }
 }
 
 @media screen  and (min-width:586px){
@@ -196,6 +218,10 @@ section .catalog {
       visibility: hidden;
     }
 
+    /* main .logo h1{
+      border-radius: 40px;
+      border-color: #f4918d;
+    } */
     main ul {
       display: none;
       visibility: hidden;
